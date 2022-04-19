@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { Component , useState } from 'react';
 import './App.css';
 import Alert from './components/Alert';
-// import About from './components/About';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
+import { HashRouter, Route, Link } from "react-router-dom";
+
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -30,12 +32,12 @@ function App() {
     }
   }
   return (
-  <> 
-  <Navbar title="TextUtilities" mode={mode} toggleMode={toggleMode} aboutText="about us" />
-  <Alert alert={alert}/>
-  <TextForm heading='Enter your Text here to Recreate' showAlert={showAlert} mode={mode}/>
-           // <About aboutText="about"/>
-  </>
+   <HashRouter basename="/">
+     <Navbar title="TextUtilities" mode={mode} toggleMode={toggleMode} aboutText="about us" />
+     <Alert alert={alert}/>
+     <Route exact path="/" component={<TextForm heading='Enter your Text here to Recreate' showAlert={showAlert} mode={mode}/>} />
+    <Route path="/about" component={<About aboutText="about"/>} />
+    </HashRouter>
   );
 }
 
