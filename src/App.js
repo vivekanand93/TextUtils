@@ -1,18 +1,10 @@
-// import logo from './logo.svg';
 import React, { useState } from 'react';
 import './App.css';
 import Alert from './components/Alert';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-// import React from "react";
-/* import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom"; */
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 function App() {
   const [mode, setMode] = useState('dark');
   const [alert, setAlert] = useState(null);
@@ -39,29 +31,20 @@ function App() {
   }
   return (
   <> 
- <Router>
+// <Router>
   <Navbar title="TextUtilities" mode={mode} toggleMode={toggleMode} aboutText="about us" />
   <Alert alert={alert}/>
-  <Routes>
-          <Route exact path="/" element={ <TextForm heading='Enter your Text here to Recreate' showAlert={showAlert} mode={mode}/>}/>
-          <Route exact path="/about" element={<About aboutText="about"/>}/>
+ // <Routes>
+          // <Route exact path="/" element={ <TextForm heading='Enter your Text here to Recreate' showAlert={showAlert} mode={mode}/>}/>
+          // <Route exact path="/about" element={<About aboutText="about"/>}/>
+            <TextForm heading='Enter your Text here to Recreate' showAlert={showAlert} mode={mode}/>
+            <About aboutText="about"/>
           {/* <Route exact path="/recovery-password" element={<RecoveryPassword/>}/>
           <Route path="*" element={<NotFound/>}/> */}
-        </Routes>
-  {/* <Switch>
-          <Route path="/about">
-            <About/>
-          </Route>
-          <Route path="/">
-            <TextForm heading='Enter your Text here to Recreate' showAlert={showAlert} mode={mode}/>
-          </Route>
-          {/* <Route path="/">
-            <Home />
-          </Route>}
-  </Switch> */}
+        //</Routes>
   <div className="container my-3" >
   </div>
-  </Router>
+  //</Router>
   </>
   );
 }
