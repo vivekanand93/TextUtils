@@ -1,15 +1,15 @@
 {
-  "main.css": "/TextUtilities/static/css/main.81c24b76.chunk.css",
-  "main.js": "/TextUtilities/static/js/main.f24cc783.chunk.js",
-  "main.js.map": "/TextUtilities/static/js/main.f24cc783.chunk.js.map",
-  "runtime~main.js": "/TextUtilities/static/js/runtime~main.088fd5aa.js",
-  "runtime~main.js.map": "/TextUtilities/static/js/runtime~main.088fd5aa.js.map",
-  "static/js/2.b29ee0f6.chunk.js": "/TextUtilities/static/js/2.b29ee0f6.chunk.js",
-  "static/js/2.b29ee0f6.chunk.js.map": "/TextUtilities/static/js/2.b29ee0f6.chunk.js.map",
-  "static/js/3.12bf67e3.chunk.js": "/TextUtilities/static/js/3.12bf67e3.chunk.js",
-  "static/js/3.12bf67e3.chunk.js.map": "/TextUtilities/static/js/3.12bf67e3.chunk.js.map",
-  "index.html": "/TextUtilities/index.html",
-  "precache-manifest.7836712a62c8ba9ce6ba8807d4402008.js": "/TextUtilities/precache-manifest.7836712a62c8ba9ce6ba8807d4402008.js",
-  "service-worker.js": "/TextUtilities/service-worker.js",
-  "static/css/main.81c24b76.chunk.css.map": "/TextUtilities/static/css/main.81c24b76.chunk.css.map"
+  "main.css": "/TextUtils/static/css/main.251bc4a1.chunk.css",
+  "main.js": "/TextUtils/static/js/main.1a03dddc.chunk.js",
+  "main.js.map": "/TextUtils/static/js/main.1a03dddc.chunk.js.map",
+  "runtime~main.js": "/TextUtils/static/js/runtime~main.a7d0d9dc.js",
+  "runtime~main.js.map": "/TextUtils/static/js/runtime~main.a7d0d9dc.js.map",
+  "static/js/2.97a2e95c.chunk.js": "/TextUtils/static/js/2.97a2e95c.chunk.js",
+  "static/js/2.97a2e95c.chunk.js.map": "/TextUtils/static/js/2.97a2e95c.chunk.js.map",
+  "static/js/3.987c3a98.chunk.js": "/TextUtils/static/js/3.987c3a98.chunk.js",
+  "static/js/3.987c3a98.chunk.js.map": "/TextUtils/static/js/3.987c3a98.chunk.js.map",
+  "index.html": "/TextUtils/index.html",
+  "precache-manifest.058c3a9624c74d73c44fc65591acad48.js": "/TextUtils/precache-manifest.058c3a9624c74d73c44fc65591acad48.js",
+  "service-worker.js": "/TextUtils/service-worker.js",
+  "static/css/main.251bc4a1.chunk.css.map": "/TextUtils/static/css/main.251bc4a1.chunk.css.map"
 }
