@@ -44,10 +44,10 @@ export default function TextForm(props) {
         <button className="btn btn-danger mx-2" onClick={handleDelete} >Clear</button>
         </div> 
         <div className="container my-2" style={{color:props.mode==='dark'?'white':'black'}}>
-        <span class="badge rounded-pill bg-info text-dark"><h2>your tex summary :- </h2></span>
+        <span className="badge rounded-pill bg-info text-dark"><h2>your tex summary :- </h2></span>
         <p>It have {text.split(" ").length} words and {text.length} characters </p>
         <p>It takes {0.008 * text.split(" ").length} minute to read </p>
-        <span class="badge rounded-pill bg-info text-dark"><h3>preview</h3></span>
+        <span className="badge rounded-pill bg-info text-dark"><h3>preview</h3></span>
         <p>{text.length>0?text:"enter somthing above to customize"}</p>
         </div>
     </>
