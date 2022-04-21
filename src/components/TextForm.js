@@ -45,10 +45,10 @@ export default function TextForm(props) {
         </div> 
         <div className="container my-2" style={{color:props.mode==='dark'?'white':'black'}}>
         <span className="badge rounded-pill bg-info text-dark"><h2>your tex summary :- </h2></span>
-        <p>It have {text.split(" ").length} words and {text.length} characters </p>
-        <p>It takes {0.008 * text.split(" ").length} minute to read </p>
+        <p>It have {text.split(" ").filter((element) => { return element.length !== 0 }).length} words and {text.length} characters </p>
+        <p>It takes {0.008 * text.split(" ").filter((element) => { return element.length !== 0 }).length} minute to read </p>
         <span className="badge rounded-pill bg-info text-dark"><h3>preview</h3></span>
-        <p>{text.length>0?text:"enter somthing above to customize"}</p>
+        <p>{text.length>0?text:"enter somthing above to see output here"}</p>
         </div>
     </>
   )
