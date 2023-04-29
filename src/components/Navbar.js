@@ -58,64 +58,6 @@ export default function Navbar(props) {
                       />
                     </div>
                   </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    {" "}
-                    <div
-                      className="dropdown-item bg-primary rounded mx-1 my-1"
-                      onClick={() => {
-                        props.toggleMode("primary");
-                      }}
-                      style={{
-                        height: "20px",
-                        width: "inherit",
-                        cursor: "pointer",
-                      }}
-                    ></div>
-                  </li>
-                  <li>
-                    {" "}
-                    <div
-                      className="dropdown-item bg-danger rounded mx-1 my-1"
-                      onClick={() => {
-                        props.toggleMode("danger");
-                      }}
-                      style={{
-                        height: "20px",
-                        width: "inherit",
-                        cursor: "pointer",
-                      }}
-                    ></div>
-                  </li>
-                  <li>
-                    <div
-                      className="dropdown-item bg-warning rounded mx-1 my-1"
-                      onClick={() => {
-                        props.toggleMode("warning");
-                      }}
-                      style={{
-                        height: "20px",
-                        width: "inherit",
-                        cursor: "pointer",
-                      }}
-                    ></div>
-                  </li>
-                  <li>
-                    {" "}
-                    <div
-                      className="dropdown-item bg-info rounded mx-1 my-1"
-                      onClick={() => {
-                        props.toggleMode("info");
-                      }}
-                      style={{
-                        height: "20px",
-                        width: "inherit",
-                        cursor: "pointer",
-                      }}
-                    ></div>
-                  </li>
                 </ul>
               </li>
               <li className="nav-item">
