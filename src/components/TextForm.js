@@ -49,6 +49,10 @@ export default function TextForm(props) {
         <p>It takes {0.008 * text.split(" ").filter((element) => { return element.length !== 0 }).length} minute to read </p>
         <span className="badge rounded-pill bg-info text-dark"><h3>preview</h3></span>
         <p>{text.length>0?text:"enter somthing above to see output here"}</p>
+        <span className="badge rounded-pill bg-info text-dark"><h3>Top User</h3></span>
+        <p>Congratulations</p>
+        <p>Ranjit Prasad</p>
+        <p>for being the top user of this website</p>
         </div>
     </>
   )
